@@ -167,16 +167,41 @@ img {
 /* / Blocco Steps */
 
 
+/* Blocco Why */
+
+#why .row {
+  margin-top: 25px;
+  background-color: #F2F2CD;
 }
 
+#why .row h1 {
+  font-size: 50px;
+  
+}
 
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 0 30px 0 30px;
+}
 
+#why .row>.first h3,
+#why .row>.second h3,
+#why .row>.third h3 {
+  font-size: 25px;
+}
 
+#why .row>.first hr,
+#why .row>.second hr,
+#why .row>.third hr {
+  border: 1px solid black;
+}
 
+}
 
-
-
-
-
+/* / Blocco Why */
 
 /* / Media Query */
