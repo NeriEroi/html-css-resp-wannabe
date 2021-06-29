@@ -75,8 +75,15 @@ img {
 /* Media Query */
 
 @media (max-width: 419px) {
-  .body {
-   
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row {
+    margin-top: 0;
+    padding-top: 20px;
   }
 
   #lezioni h1 {
@@ -90,9 +97,14 @@ img {
     padding-bottom: 30px;
   }
 
+  #lezioni .row h1 {
+    padding-top: px;
+    margin-top: 0;
+  }
+
   #lezioni .row>.left {
-    padding-bottom: 20px;
-    font-size: 25px;
+    padding: 40px 15px 20px 15px;
+    font-size: 24px;
     font-weight: 900;
   }
 
@@ -101,12 +113,15 @@ img {
     font-weight: 900;
   }
 
-  #lezioni .row>.left h3 {
-    font-size: 30px;
-  }
-
+  #lezioni .row>.left h3,
   #lezioni .row>.right h3 {
     font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #lezioni .row>.right img {
+    padding-top: 15px;
   }
 
   #lezioni .row>.left,
