@@ -75,6 +75,40 @@ img {
 /* Media Query */
 
 @media (max-width: 419px) {
+  .body {
+   
+  }
+
+  #lezioni h1 {
+    font-size: 50px;
+    font-weight:900;
+    background-color: #F2F2CD;
+  }
+
+  #lezioni .row {
+    background-color: #F2F2CD;
+    padding-bottom: 30px;
+  }
+
+  #lezioni .row>.left {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  #lezioni .row>.right {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  #lezioni .row>.left h3 {
+    font-size: 30px;
+  }
+
+  #lezioni .row>.right h3 {
+    font-size: 30px;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
   width: 100%;
