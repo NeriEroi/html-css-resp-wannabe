@@ -206,3 +206,136 @@ img {
 /* / Blocco Why */
 
 /* / Media Query */
+
+
+/* Bonus Media Query */
+
+@media (min-width: 421px) and (max-width: 768px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+  }
+
+  .row {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  #lezioni h1 {
+    font-size: 50px;
+    font-weight:900;
+    background-color: lime;
+  }
+
+  #lezioni .row {
+    background-color: orangered;
+    padding-bottom: 30px;
+  }
+
+  #lezioni .row h1 {
+    padding-top: px;
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;
+  float: none;
+}
+
+  #lezioni .row>.left {
+    padding: 40px 15px 20px 15px;
+    font-size: 27px;
+    /* font-weight: 700; */
+  }
+
+  #lezioni .row>.right {
+    font-size: 27px;
+    /* font-weight: 700; */
+  }
+
+  #lezioni .row>.left h3,
+  #lezioni .row>.right h3 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #lezioni .row>.right img {
+    padding-top: 15px;
+  }
+
+  /* / Blocco Lezioni */
+
+
+  /* Blocco Steps */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+  padding-top: 30px;
+  font-size: 28px;
+  padding: 0 15px 0 15px;
+}
+
+#steps .row h1 {
+  font-size: 50px;
+  font-weight:900;
+}
+
+#steps .row>.left h3,
+#steps .row>.central h3,
+#steps .row>.right h3 {
+  font-size: 30px;
+}
+
+#steps .row>.left img,
+#steps .row>.central img,
+#steps .row>.right img {
+  padding-top: 40px;
+}
+
+/* / Blocco Steps */
+
+
+/* Blocco Why */
+
+#why .row {
+  padding-bottom: 20px;
+  margin-top: 25px;
+  background-color: orangered;
+}
+
+#why .row h1 {
+  font-size: 50px;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin-top: 30px;
+  font-size: 26px;
+  /* font-weight: 700; */
+  padding: 0 30px 0 30px;
+}
+
+#why .row>.first h3,
+#why .row>.second h3,
+#why .row>.third h3 {
+  font-size: 25px;
+}
+
+#why .row>.first hr,
+#why .row>.second hr,
+#why .row>.third hr {
+  border: 1px solid lime;
+}
+
+}
+
+/* / Bonus Media Query */
